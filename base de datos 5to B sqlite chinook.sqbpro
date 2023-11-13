@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/home/etec213/Descargas/base de datos 5to B sqlite chinook.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure pragmas browser query" current="2"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3928"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:maininvoices"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="albums" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="65"/><column index="2" value="300"/><column index="3" value="60"/></column_widths><filter_values><column index="2" value="rocan"/></filter_values><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="artists" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="60"/><column index="2" value="300"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="customers" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="89"/><column index="2" value="80"/><column index="3" value="95"/><column index="4" value="300"/><column index="5" value="299"/><column index="6" value="146"/><column index="7" value="49"/><column index="8" value="112"/><column index="9" value="87"/><column index="10" value="148"/><column index="11" value="141"/><column index="12" value="210"/><column index="13" value="105"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="employees" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="90"/><column index="2" value="77"/><column index="3" value="80"/><column index="4" value="140"/><column index="5" value="78"/><column index="6" value="145"/><column index="7" value="145"/><column index="8" value="204"/><column index="9" value="77"/><column index="10" value="44"/><column index="11" value="64"/><column index="12" value="87"/><column index="13" value="132"/><column index="14" value="132"/><column index="15" value="192"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="genres" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="63"/><column index="2" value="129"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="invoices" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="71"/><column index="2" value="89"/><column index="3" value="145"/><column index="4" value="299"/><column index="5" value="146"/><column index="6" value="90"/><column index="7" value="112"/><column index="8" value="133"/><column index="9" value="45"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="media_types" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="97"/><column index="2" value="188"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="tracks" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="58"/><column index="2" value="300"/><column index="3" value="65"/><column index="4" value="97"/><column index="5" value="63"/><column index="6" value="300"/><column index="7" value="95"/><column index="8" value="74"/><column index="9" value="72"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 2">--2)
+
+--INSERT INTO artists(name) VALUES(&quot;Callejeros&quot;)
+
+--INSERT INTO albums (Title,ArtistId) VALUES (&quot;Rocanroles sin destino&quot;,303)
+INSERT INTO tracks (name,MediaTypeId,Milliseconds,UnitPrice,GenreId,AlbumId) VALUES (&quot;DISTINTO&quot;,1,100,0.99,1,348),(&quot;SÉ QUE NO SÉ&quot;,1,100,0.99,1,348),(&quot;SERÍA UNA PENA&quot;,1,100,0.99,1,348),
+(&quot;ALGO PEOR ALGO MEJOR&quot;,1,100,0.99,1,348),(&quot;REBELDE, AGITADOR Y REVOLUCIONARIO&quot;,1,100,0.99,1,348),(&quot;UN LUGAR PERFECTO&quot;,1,100,0.99,1,348),(&quot;TODO ESO&quot;,1,100,0.99,1,348),(&quot;PROHIBIDO&quot;,1,100,0.99,1,348),
+(&quot;TAN PERFECTO QUE ASUSTA&quot;,1,100,0.99,1,348),(&quot;TRATANDO DE OLVIDAR&quot;,1,100,0.99,1,348),(&quot;ROCANROLES SIN DESTINO&quot;,1,100,0.99,1,348),(&quot;LA LLAVE&quot;,1,100,0.99,1,348),(&quot;PARTE MENOR&quot;,1,100,0.99,1,348),
+(&quot;CANCIONES Y ALMAS&quot;,1,100,0.99,1,348)
+</sql><sql name="SQL 3">--3)
+UPDATE employees SET fax = Phone
+UPDATE employees SET Phone = Fax</sql><sql name="SQL 5">--4) Borrar todos los géneros que tengan menos de 50 canciones borrar todo lo necesario para poder borrar estos géneros
+SELECT COUNT(name)FROM tracks WHERE GenreId = 1 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 2 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 3 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 4 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 5 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 6  
+SELECT COUNT(name)FROM tracks WHERE GenreId = 7 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 8 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 9
+SELECT COUNT(name)FROM tracks WHERE GenreId = 10 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 11 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 12 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 13 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 14 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 15 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 16 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 17 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 18 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 19 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 20 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 21 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 22 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 23 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 24 
+SELECT COUNT(name)FROM tracks WHERE GenreId = 25 -</sql><sql name="SQL 8">--5) En la tabla de empleados, el jefe principal tiene NULL en el campo de reportsTo.  Modificar la tabla para que tenga su propio id de empleado en ese campo.
+
+UPDATE employees SET ReportsTo = 1 WHERE Title = &quot;General Manager&quot; </sql><sql name="SQL 9">--6)Borrar todos los clientes que no tengan facturas (invoices)
+
+SELECT * FROM  </sql><sql name="SQL 10">--7) Agregar a todos los empleados como clientes del sistema.  Poner todos los datos y poner a sus jefes como como agente de soporte (SupportRepId)
+
+</sql><current_tab id="4"/></tab_sql></sqlb_project>
